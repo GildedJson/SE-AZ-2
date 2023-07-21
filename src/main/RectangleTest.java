@@ -9,6 +9,6 @@ class RectangleTest {
     @Test
     void calculateArea1() {
         Rectangle rex = new Rectangle(4, 6);
-        assertEquals(24, rex.calculateArea());
+        assertEquals(24, rex.computeArea());
     }
 }

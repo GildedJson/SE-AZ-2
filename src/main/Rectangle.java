@@ -9,7 +9,7 @@ public class Rectangle {
         this.height = height;
     }
 
-    public int calculateArea() {
+    public int computeArea() {
         return width * height;
     }
 
