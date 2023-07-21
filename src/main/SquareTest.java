@@ -4,11 +4,11 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class RectangleTest {
+class SquareTest {
 
     @Test
     void calculateArea() {
-        Rectangle rex = new Rectangle(4, 6);
-        assertEquals(24, rex.computeArea());
+        Square ski = new Square(5);
+        assertEquals(25, ski.computeArea());
     }
 }
